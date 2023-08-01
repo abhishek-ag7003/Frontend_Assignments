@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar_wrapper">
+        <div class="nav_container">
+          <div class="nav_left_section">
+            <div class="nav_linkedin_logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="currentColor"
+                class="mercado-match"
+                width="24"
+                height="24"
+                focusable="false"
+              >
+                <path
+                  d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                ></path>
+              </svg>
+            </div>
+            <div class="nav_search_container">
+              <span class="nav_search_icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  data-supported-dps="16x16"
+                  fill="currentColor"
+                  class="mercado-match"
+                  width="16"
+                  height="16"
+                  focusable="false"
+                >
+                  <path
+                    d="M14.56 12.44L11.3 9.18a5.51 5.51 0 10-2.12 2.12l3.26 3.26a1.5 1.5 0 102.12-2.12zM3 6.5A3.5 3.5 0 116.5 10 3.5 3.5 0 013 6.5z"
+                  ></path></svg
+              ></span>
+              <input type="text" placeholder="Search" />
+            </div>
+          </div>
+          <div class="nav_right_section">
+            <div class="nav_link_items">
+              <div class="nav_item" id="nav_home_item">
+                <a href="#">
+                  <div class="nav_item_logo">
+                    <span class="nav_item_notification"></span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      fill="currentColor"
+                      class="mercado-match"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="nav_item_label">Home</div>
+                </a>
+              </div>
+              <div class="nav_item" id="nav_my_network_item">
+                <a href="#">
+                  <div class="nav_item_logo">
+                    <span class="nav_item_notification"></span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      fill="currentColor"
+                      class="mercado-match"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="nav_item_label">My Network</div>
+                </a>
+              </div>
+              <div class="nav_item" id="nav_jobs_item">
+                <a href="#">
+                  <div class="nav_item_logo">
+                    <span class="nav_item_notification"></span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      fill="currentColor"
+                      class="mercado-match"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="nav_item_label">Jobs</div>
+                </a>
+              </div>
+              <div class="nav_item" id="nav_messaging_item">
+                <a href="#">
+                  <div class="nav_item_logo">
+                    <span class="nav_item_notification">2</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      fill="currentColor"
+                      class="mercado-match"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="nav_item_label">Messaging</div>
+                </a>
+              </div>
+              <div class="nav_item" id="nav_notification_item">
+                <a href="#">
+                  <div class="nav_item_logo">
+                    <span class="nav_item_notification">9</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      fill="currentColor"
+                      class="mercado-match"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="nav_item_label">Notifications</div>
+                </a>
+              </div>
+              <div class="nav_item" id="nav_profile_item">
+                <a href="#">
+                  <div class="nav_item_logo">
+                    <div class="nav_profile_img">
+                      <img src="./images/banner_profile_img.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="nav_item_label">
+                    Me
+                    <span class="nav_profile_down_arrow">&#9660;</span>
+                  </div>
+                </a>
+              </div>
+              <div class="nav_item" id="nav_business_option_item">
+                <a href="#">
+                  <div class="nav_item_logo">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      data-supported-dps="24x24"
+                      fill="currentColor"
+                      class="mercado-match"
+                      width="24"
+                      height="24"
+                      focusable="false"
+                    >
+                      <path
+                        d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="nav_item_label">
+                    For Business
+                    <span class="nav_profile_down_arrow">&#9660;</span>
+                  </div>
+                </a>
+              </div>
+              <div class="nav_item" id="nav_premium_item">
+                Try Premium for free
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_section_wrapper">
+        <div class="main_container">
+          <div class="left_aside_layout_sidebar">
+            <div class="left_sidebar_profile_detail">
+              <div class="left_sidebar_identity_card">
+                <div class="profile_banner">
+                  <img src="./images/static_banner_bg.svg" alt="" />
+                </div>
+                <a href="#" class="profile_image_name_wrapper_link">
+                  <span class="profile_image"
+                    ><img src="./images/banner_profile_img.jpg" alt=""
+                  /></span>
+                  <span class="profile_name">Abhishek Gupta</span>
+                </a>
+                <p class="left_profile_role_headline">
+                  JavaScript | React JS | Next JS | Vue JS | Node JS | Express |
+                  MySQL | Mongodb | REST API | GraphQL | Redux
+                </p>
+              </div>
+              <div class="left_sidebar_viewProfile_impression_detail">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <div class="viewed_profile_label label">
+                        Who's veiwed your profile
+                      </div>
+                      <span class="viewed_profile_count count">98</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="post_impression_label label">
+                        Impressions of your post
+                      </div>
+                      <span class="post_impression_count count">4913</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="left_sidebar_tryPremium_container">
+                <a href="#">
+                  <h3 class="access_exclusive_label">
+                    Access exclusive tools & insights
+                  </h3>
+                  <div class="left_sidebar_tryPremium_wrapper">
+                    <span class="left_sidebar_tryPremium_icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        data-supported-dps="24x24"
+                        class="mercado-match"
+                        width="24"
+                        height="24"
+                        focusable="false"
+                      >
+                        <path
+                          d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z"
+                          fill="#f8c77e"
+                        ></path>
+                        <path
+                          d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z"
+                          fill="#e7a33e"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span class="left_sidebar_tryPremium_label"
+                      >Try Premium for free</span
+                    >
+                  </div>
+                </a>
+              </div>
+              <div class="left_sidebar_myItems_container">
+                <a href="">
+                  <span class="myItem_bookmark_icon">
+                    <img src="./images/bookmark_myItem_icon.svg" alt=""
+                  /></span>
+                  <span class="myItem_label">My item</span>
+                </a>
+              </div>
+            </div>
+            <div class="main_feed_container"></div>
+            <div class="right_aside_container"></div>
+          </div>
+          <div class="main_feed_layout_container">
+            <div class="main_create_post_wrapper">
+              <div class="create_post_container">
+                <a href="" class="create_post_profile_img"
+                  ><img src="./images/banner_profile_img.jpg" alt=""
+                /></a>
+                <button class="create_post_input_button">Start a post</button>
+              </div>
+              <div class="create_post_toolbar">
+                <div class="create_post_toolbar_item add_photo">
+                  <img src="./images/add_photo.png" alt="add_photo" />
+                  <span>Photo</span>
+                </div>
+                <div class="create_post_toolbar_item add_video">
+                  <img src="./images/video.png" alt="add_photo" />
+                  <span>Video</span>
+                </div>
+                <div class="create_post_toolbar_item add_job">
+                  <img src="./images/jobslogo.svg" alt="add_photo" />
+                  <span>Job</span>
+                </div>
+                <div class="create_post_toolbar_item add_article">
+                  <img src="./images/article.png" alt="add_photo" />
+                  <span>Write Article</span>
+                </div>
+              </div>
+            </div>
+            <div class="divider_line_sort_wrapper">
+              <hr />
+              <span
+                >Sort By: <strong>Top </strong>
+                <span class="sortBy_downArrow">&#9660;</span></span
+              >
+            </div>
+            <div class="main_post_wrapper">
+              <div class="main_post_container">
+                <div class="main_post_header">
+                  <div class="post_profile_img">
+                    <img src="../LinkedIn/images/saumya_jain_pic.jpg" alt="" />
+                  </div>
+                  <div class="main_post_profile_detail">
+                    <div class="main_post_feed_header">
+                      <div class="post_profile_name">
+                        <span class="name">Saumya Singh</span>
+                        <span> (She/Her) </span><span>&#9679; </span
+                        ><span>Following</span>
+                      </div>
+                      <div class="post_more_option_wrapper">
+                        <div class="more-option-dots">
+                          &#9679;&#9679;&#9679;
+                        </div>
+                        <div class="close-icon">&#10005;</div>
+                      </div>
+                    </div>
+                    <a class="post_profile_experience"
+                      >Software Engineer helping you excel in Tech & Life
+                    </a>
+                    <div class="post_time_wrapper">
+                      1w &#9679; Edited &#9679;
+                      <img
+                        width="16"
+                        height="16"
+                        src="https://img.icons8.com/ios-glyphs/30/earth-planet--v2.png"
+                        alt="earth-planet--v2"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="main_post_caption">
+                  <span 
+                    >See who is featured at the Times Square, United States
+                    billboard 🥺♥️<br /><br />Wow!! <br /><br />Thanks
+                    <a
+                      href="https://www.linkedin.com/company/topmate-io/"
+                      data-attribute-index="0"
+                      data-entity-type="MINI_COMPANY"
+                      style="display: inline-block"
+                      >topmate.io</a
+                    >
+                    for making this dream possible. The billboard is still going
+                    on 🚀 <br /><br /><a
+                      href="https://www.linkedin.com/feed/hashtag/?keywords=featured&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7061217762362179584"
+                      data-attribute-index="2"
+                      style="display: inline-block"
+                      >#featured</a
+                    >
+                    <a
+                      href="https://www.linkedin.com/feed/hashtag/?keywords=grateful&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7061217762362179584"
+                      data-attribute-index="3"
+                      style="display: inline-block"
+                      >#grateful</a
+                    >
+                    <a
+                      href="https://www.linkedin.com/feed/hashtag/?keywords=softwaredeveloper&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7061217762362179584"
+                      data-attribute-index="4"
+                      style="display: inline-block"
+                      >#softwaredeveloper</a
+                    ></span
+                  >
+                </div>
+                <div class="main_post_images_wrapper">
+                  <img src="./images/saumya_jain_post.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right_aside_layout_container">
+            <div class="right_feed_news_module_wrapper">
+              <div class="right_feed_news_header">
+                <h2>LinkedIn News</h2>
+                <span class="info_tooltip">i</span>
+              </div>
+              <ul class="right_news_feed_list_item">
+                <li>
+                  <a href="#">
+                    <div class="news_feed_list_item_text">
+                      Driving social impact at scale
+                    </div>
+                    <div class="news_feed_list_item_subtext">
+                      <span>Top news</span> &#9679;
+                      <span class="news_feed_item_list_count"
+                        >3,323 readers</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="news_feed_list_item_text">
+                      The true cost of healthcare
+                    </div>
+                    <div class="news_feed_list_item_subtext">
+                      <span>6d ago</span> &#9679;
+                      <span class="news_feed_item_list_count">274 readers</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="news_feed_list_item_text">
+                      More women on auto shop floors
+                    </div>
+                    <div class="news_feed_list_item_subtext">
+                      <span>6d ago</span> &#9679;
+                      <span class="news_feed_item_list_count">664 readers</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="news_feed_list_item_text">
+                      Engineering R&D hiring takes off
+                    </div>
+                    <div class="news_feed_list_item_subtext">
+                      <span>5d ago</span> &#9679;
+                      <span class="news_feed_item_list_count"
+                        >2,323 readers</span
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="news_feed_list_item_text">
+                      Driving social impact at scale
+                    </div>
+                    <div class="news_feed_list_item_subtext">
+                      <span>Top news</span> &#9679;
+                      <span class="news_feed_item_list_count"
+                        >3,323 readers</span
+                      >
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <button>
+                Show more <span class="down_chevron">&#10095;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
